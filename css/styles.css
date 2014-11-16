@@ -1,0 +1,103 @@
+.mr0 {
+	background-color: #e0d690;
+}
+
+.mr1 {
+	background-color: #333333;
+	color: #e0d690;
+/*	font-family: 'Bowlby One SC', cursive;*/
+	font-family: 'Holtwood One SC', serif;
+}
+
+.mr2 {
+	background-color: #a92d2d;
+}
+
+
+/*navbar*/
+.nav {
+	background-color: #333333;
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+}
+
+.navbtn {
+	background-color: #333333;
+	color: #e0d690;
+	border-radius: 0;
+	border-color: #e0d690;
+	-webkit-transition: background-color .25s, color .25s;
+	tranisition: background-color .25s, color .25s;
+}
+
+.navbtn:hover {
+	background-color: #e0d690;
+	color: #333333;
+}
+
+.push {
+	height: 34px;
+}
+
+.container {
+	border: 3px solid #a92d2d;
+}
+
+
+
+/*GARAGE*/
+.garage-container {
+	background-color: #333333;
+}
+
+.tab {
+	color: white;
+	background-color: #333333;
+	text-align: center;
+	border-color: #a92d2d;
+	border-style: solid;
+	border-width: 3px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: 'Holtwood One SC', serif;
+}
+
+.mainbody {
+	background-color: #333333;
+	}
+
+
+.info {
+	height: 500px;
+	background-color: #e0d690;
+	margin: 0px 10px 0px 10px;
+}
+
+.location, .contact-us {
+	display: none;
+}
+.garage-door {
+	height: 500px;
+	margin: 0px 10px 0px 10px;
+	display: none;
+}
+
+
+.garage-door img {
+	/*margin: auto;*/
+  display: block;
+  max-width: 100%;
+  height: 500px;
+}
+
+.space {
+	height: 10px;
+}
+
+@media (max-width: 992px) {
+	.tab {
+		width: 100%;
+	}
+}
+
