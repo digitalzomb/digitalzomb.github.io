@@ -61,8 +61,8 @@
 	padding: 5px;
 	font-size: 20px;
 	font-family: 'Holtwood One SC', serif;
-	-webkit-transition: background-color .25s, color .25s, border-color .1s;
-	tranisition: background-color .25s, color .25s, border-color .1s;
+	-webkit-transition: background-color .25s, color .25s, border-color .25s;
+	tranisition: background-color .25s, color .25s, border-color .25s;
 }
 
 .hovereffect:hover {
@@ -70,11 +70,11 @@
 	color: #e0d690;
 }
 
-.tab:active {
+/*.tab:active {
 	background-color: #842e2e;
 	color: #333333;
 	border-color: #333333;
-}
+}*/
 
 .clicked {
 	background-color: #842e2e;
