@@ -1,11 +1,11 @@
-.mr0 {
+/*.mr0 {
 	background-color: #e0d690;
 }
 
 .mr1 {
 	background-color: #333333;
 	color: #e0d690;
-/*	font-family: 'Bowlby One SC', cursive;*/
+
 	font-family: 'Holtwood One SC', serif;
 }
 
@@ -14,7 +14,7 @@
 }
 
 
-/*navbar*/
+
 .nav {
 	background-color: #333333;
 	width: 100%;
@@ -34,7 +34,7 @@
 .navbtn:hover {
 	background-color: #e0d690;
 	color: #333333;
-}
+}*/
 
 .push {
 	height: 34px;
@@ -45,19 +45,34 @@
 }
 
 body {
-	background-color: #595a58;
+	background-color: #4a4a4a;
 }
+
 /*Header*/
+
+.header-container {
+	margin-top: 15px;
+}
+
 .headline {
-	color: white;
+	color: #e0d690;
 	text-align: center;
 	font-size: 32px;
 	font-family: 'Holtwood One SC', serif;
+		background-color: rgba(51, 51, 51, 0.8);
+}
+
+.subline {
+	color: #e0d690;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Satisfy', cursive;
+	background-color: rgba(51, 51, 51, 0.8);
 }
 /*GARAGE*/
 
 .garage-container {
-	background-color: #333333;
+	background-color: rgba(51, 51, 51, 0.8);
 }
 
 .tab {
@@ -92,8 +107,9 @@ body {
 }
 
 .mainbody {
-	background-color: #333333;
+	background-color: rgba(51, 51, 51, 0.8);
 	overflow: hidden;
+	padding-top: 15px;
 	}
 
 
@@ -173,6 +189,8 @@ body {
 .google {
 	display: block;
 	margin: auto;
+	margin-bottom: 10px;
+	border: solid #a92d2d 3px;
 }
 
 .photo {
@@ -181,14 +199,44 @@ body {
 	float: left;
 	border: solid #a92d2d 3px;
 	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 .name {
 	font-family: 'Holtwood One SC', serif;
 	font-size: 20px;
 	text-align: center;
+	border-top: white solid 1px;
+	border-bottom: white solid 1px;
+	margin-top: 5px;
+	padding: 5px 0px 5px 0px;
 }
 
 .list {
 	font-size: 16px;
+}
+
+.blank-row {
+	height: 25px;
+}
+
+.footer {
+	text-align: center;
+	background-color: rgba(51, 51, 51, 0.8);
+	color: #e0d690;
+	height: 40px;
+}
+
+.footer-container{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 15px;
+}
+
+.footer div {
+	padding-top: 10px;
+}
+
+.bold-me {
+	font-weight: bold;
 }
